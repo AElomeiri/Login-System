@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
+#include "Screens.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Screens user;
+    user.MainScreen();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
